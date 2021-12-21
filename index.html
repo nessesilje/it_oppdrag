@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>IT oppdrag</title>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index.css"> <!--referer til extern css fil-->
     </head>
     <body>
         <div id="skjemaDiv">
@@ -24,13 +24,13 @@
                 </div>
                 <div>
                     <label for ="email">Email:</label><br>
-                    <input type = "email" id="email">
+                    <input type = "email" id="email"> <!--input type gjer at ein må ha @-->
                 </div>
                 <div>
                     <input type = "text" id="oppdragInfo" placeholder="Beskriv feilen">
                 </div>
                 <div>
-                    <input type="file" id="inpBilde">
+                    <input type="file" id="inpBilde"> <!--laste opp bilete-->
                     <button type="submit">Registrer</button><!--sender inn skjema-->
                 </div>
             </form>
@@ -46,7 +46,8 @@
             <a href="wireframe.png">Wireframe</a>
         </footer>
 
-        <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase.js"></script>
+        <!--firebase-->
+	<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase.js"></script>
         <script>
 	        const firebaseConfig = {
   		        apiKey: "AIzaSyB3VpxdRBGErFjcJsy-9LmhwX6iBKhIGLw",
@@ -63,7 +64,7 @@
 	
         </script>
 
-        <script src="index.js"></script>
+        <script src="index.js"></script><!--linke til extern javascript fil-->
     </body>
 
 </html>
