@@ -1,0 +1,77 @@
+#skjema > div {
+    padding: 5px;
+}
+#skjemaDiv {
+    margin: 30px;
+    padding: 1rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: left;
+	align-items: flex-start;
+	grid-gap: 1rem;
+    background-color: lightgray;
+}
+#skjemaDiv > h1{
+    grid-column: span 2;
+}
+#skjemaDiv input[type=text] {
+	padding: 0.5rem;
+}
+
+#oppdrag {
+    padding: 30px;
+}
+main {
+	padding: 1.5rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
+    background-color: lightgray;
+	}
+	
+	main article {
+	display: grid;
+	grid-auto-flow: row;
+	background-color: lightblue;
+    border: solid black 2px;
+}
+	
+	main img {
+	width: 100%;
+	}
+	
+	main article p {
+	text-align: center;
+	justify-self: center;
+	align-self: end; 
+	}
+	
+	#overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.85);
+	display: none;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100vw;
+	height: 100vh;
+	}
+	
+	#overlay img {
+	width: 120px;
+	}
+    footer{
+        margin-top: 10px;
+        padding: 5px;
+        padding-left: 30px;
+        width: 100% ;
+        height: 5% ;
+        position: absolute;
+        bottom: auto;
+        left: 0;
+        background-color: rgb(32, 32, 32);
+    }
+    footer > a {
+        color: lightgray;
+    }
