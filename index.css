@@ -1,6 +1,7 @@
-html {
-	font-size: 100%;
-	}
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
 #skjemaDiv {
     margin: 30px;
     padding: 1rem;
