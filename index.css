@@ -1,12 +1,12 @@
 html, body {
 	max-width: 100%;
 	overflow-x: hidden;
-}
+} /*hindrar at det vert scroll-bar nederst på sida*/
 #skjemaDiv {
     margin: 30px;
     padding: 1rem;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 1fr); /*to colomns*/
 	justify-content: center;
 	align-items: center;
 	grid-gap: 1rem;
@@ -16,7 +16,7 @@ html, body {
     padding: 5px;
 }
 #skjemaDiv > h1{
-    grid-column: span 2;
+    grid-column: span 2; /*header tar opp two columns slik at skjma kjem under*/
 }
 #skjemaDiv input[type=text] {
 	padding: 0.5rem;
@@ -28,7 +28,8 @@ html, body {
 main {
 	padding: 1.5rem;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*justerer kor mange columns automatisk med kvar article er minst 250px. 
+	Slik at når skjermen vert mindre flyttar dei seg ned istadanfor å bli mindre*/
 	grid-gap: 1rem;
     background-color: lightgray;
 	}
