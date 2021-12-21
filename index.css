@@ -1,9 +1,6 @@
 html {
 	font-size: 100%;
 	}
-#skjema > div {
-    padding: 5px;
-}
 #skjemaDiv {
     margin: 30px;
     padding: 1rem;
@@ -13,6 +10,9 @@ html {
 	align-items: center;
 	grid-gap: 1rem;
     background-color: lightgray;
+}
+#skjema > div {
+    padding: 5px;
 }
 #skjemaDiv > h1{
     grid-column: span 2;
