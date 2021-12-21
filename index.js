@@ -48,7 +48,7 @@ function lagreOppdrag(evt){
 	
 	    main.innerHTML = `
 	    <article>
-        <p>${data.date}</p>
+		<p>${data.date}</p>
         <p>${data.fornamn} ${data.etternamn}</p>
         <p>${data.telefon}</p>
         <p>${data.email}</p>
